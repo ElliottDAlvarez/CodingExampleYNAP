@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  YNAP
+
+  Created by Elliott D'Alvarez on 24/07/2019.
+  Copyright © 2019 EJD. All rights reserved.
+*/
+
+"network.service.request.invalid" = "Malformed request, endpoint or body may be invalid.";
+"network.service.response.decoding.failed" = "Failed to decode the response from the server with error: ";

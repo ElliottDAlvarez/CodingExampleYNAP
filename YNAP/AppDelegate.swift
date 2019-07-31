@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  YNAP
 //
-//  Created by Elliott D'Alvarez on 23/07/2019.
+//  Created by Elliott D'Alvarez on 24/07/2019.
 //  Copyright © 2019 EJD. All rights reserved.
 //
 
@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
         return true
     }
 

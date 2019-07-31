@@ -1,14 +1,14 @@
 //
-//  YNAPUITests.swift
+//  HomeViewUITests.swift
 //  YNAPUITests
 //
-//  Created by Elliott D'Alvarez on 23/07/2019.
+//  Created by Elliott D'Alvarez on 24/07/2019.
 //  Copyright © 2019 EJD. All rights reserved.
 //
 
 import XCTest
 
-class YNAPUITests: XCTestCase {
+class HomeViewUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -26,9 +26,12 @@ class YNAPUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_collection_view_loads_and_populates() {
+        let collectionViewsQuery = XCUIApplication().collectionViews
+        collectionViewsQuery.cells.otherElements.containing(.staticText, identifier:"Checked merino wool sweater").element.tap()
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["Checked merino wool sweater"]/*[[".cells.staticTexts[\"Checked merino wool sweater\"]",".staticTexts[\"Checked merino wool sweater\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["420 GBP"]/*[[".cells.staticTexts[\"420 GBP\"]",".staticTexts[\"420 GBP\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+
     }
 
 }

@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1167B622E7590D00B8BEC8 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1167B522E7590D00B8BEC8 /* HomeCollectionViewCell.swift */; };
+		4F1167BD22E86BF400B8BEC8 /* ClothingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1167BC22E86BF400B8BEC8 /* ClothingViewModel.swift */; };
+		4F1167C022E86FEB00B8BEC8 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1167BF22E86FEB00B8BEC8 /* UIImageView+Extensions.swift */; };
+		4F1167C322E881BE00B8BEC8 /* ClothingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1167C222E881BE00B8BEC8 /* ClothingViewModelTests.swift */; };
+		4F1167C622E8A2D500B8BEC8 /* NetworkingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1167C522E8A2D500B8BEC8 /* NetworkingServiceTests.swift */; };
+		4F1167CB22E8B0EA00B8BEC8 /* ClothingModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1167C922E8B0A800B8BEC8 /* ClothingModelMock.swift */; };
+		4F1167CD22E8B24700B8BEC8 /* HomeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1167CC22E8B24700B8BEC8 /* HomeViewUITests.swift */; };
+		4F534C8322F1C07700C791AA /* ClothingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F534C8222F1C07700C791AA /* ClothingCollectionView.swift */; };
+		4F534C8522F1C53100C791AA /* ClothingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F534C8422F1C53100C791AA /* ClothingListViewModel.swift */; };
+		4F534C8822F1CF4600C791AA /* ClothingListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F534C8722F1CF4600C791AA /* ClothingListViewModelTests.swift */; };
 		4F75D3FE22E717EE005DEAF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D3FD22E717EE005DEAF3 /* AppDelegate.swift */; };
-		4F75D40022E717EE005DEAF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D3FF22E717EE005DEAF3 /* ViewController.swift */; };
 		4F75D40322E717EE005DEAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F75D40122E717EE005DEAF3 /* Main.storyboard */; };
 		4F75D40622E717EE005DEAF3 /* YNAP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D40422E717EE005DEAF3 /* YNAP.xcdatamodeld */; };
 		4F75D40822E717F1005DEAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F75D40722E717F1005DEAF3 /* Assets.xcassets */; };
 		4F75D40B22E717F1005DEAF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F75D40922E717F1005DEAF3 /* LaunchScreen.storyboard */; };
 		4F75D41622E717F1005DEAF3 /* YNAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D41522E717F1005DEAF3 /* YNAPTests.swift */; };
-		4F75D42122E717F1005DEAF3 /* YNAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D42022E717F1005DEAF3 /* YNAPUITests.swift */; };
+		4F75D42F22E71872005DEAF3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D42E22E71872005DEAF3 /* HomeViewController.swift */; };
+		4F75D43222E71A9D005DEAF3 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D43122E71A9D005DEAF3 /* NetworkingService.swift */; };
+		4F75D43922E71CAA005DEAF3 /* NetworkingResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D43822E71CAA005DEAF3 /* NetworkingResource.swift */; };
+		4F75D43B22E71CE4005DEAF3 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D43A22E71CE4005DEAF3 /* HttpMethod.swift */; };
+		4F75D43D22E71DE0005DEAF3 /* URLRequest+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D43C22E71DE0005DEAF3 /* URLRequest+Resource.swift */; };
+		4F75D44022E7208B005DEAF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F75D44222E7208B005DEAF3 /* Localizable.strings */; };
+		4F75D44522E72388005DEAF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D44422E72388005DEAF3 /* Constants.swift */; };
+		4F75D44A22E725D8005DEAF3 /* ClothingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D44922E725D8005DEAF3 /* ClothingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F1167B522E7590D00B8BEC8 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F1167BC22E86BF400B8BEC8 /* ClothingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingViewModel.swift; sourceTree = "<group>"; };
+		4F1167BF22E86FEB00B8BEC8 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		4F1167C222E881BE00B8BEC8 /* ClothingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingViewModelTests.swift; sourceTree = "<group>"; };
+		4F1167C522E8A2D500B8BEC8 /* NetworkingServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingServiceTests.swift; sourceTree = "<group>"; };
+		4F1167C922E8B0A800B8BEC8 /* ClothingModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingModelMock.swift; sourceTree = "<group>"; };
+		4F1167CC22E8B24700B8BEC8 /* HomeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewUITests.swift; sourceTree = "<group>"; };
+		4F534C8222F1C07700C791AA /* ClothingCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingCollectionView.swift; sourceTree = "<group>"; };
+		4F534C8422F1C53100C791AA /* ClothingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingListViewModel.swift; sourceTree = "<group>"; };
+		4F534C8722F1CF4600C791AA /* ClothingListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingListViewModelTests.swift; sourceTree = "<group>"; };
 		4F75D3FA22E717EE005DEAF3 /* YNAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F75D3FD22E717EE005DEAF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F75D3FF22E717EE005DEAF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F75D40222E717EE005DEAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F75D40522E717EE005DEAF3 /* YNAP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YNAP.xcdatamodel; sourceTree = "<group>"; };
 		4F75D40722E717F1005DEAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,8 +72,15 @@
 		4F75D41522E717F1005DEAF3 /* YNAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNAPTests.swift; sourceTree = "<group>"; };
 		4F75D41722E717F1005DEAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F75D41C22E717F1005DEAF3 /* YNAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F75D42022E717F1005DEAF3 /* YNAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNAPUITests.swift; sourceTree = "<group>"; };
 		4F75D42222E717F1005DEAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F75D42E22E71872005DEAF3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F75D43122E71A9D005DEAF3 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		4F75D43822E71CAA005DEAF3 /* NetworkingResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingResource.swift; sourceTree = "<group>"; };
+		4F75D43A22E71CE4005DEAF3 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		4F75D43C22E71DE0005DEAF3 /* URLRequest+Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Resource.swift"; sourceTree = "<group>"; };
+		4F75D44122E7208B005DEAF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4F75D44422E72388005DEAF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F75D44922E725D8005DEAF3 /* ClothingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +108,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1167B222E758B500B8BEC8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167B322E758C900B8BEC8 /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4F1167B322E758C900B8BEC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D42E22E71872005DEAF3 /* HomeViewController.swift */,
+				4F534C8222F1C07700C791AA /* ClothingCollectionView.swift */,
+				4F1167B422E758E500B8BEC8 /* Cells */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4F1167B422E758E500B8BEC8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167B522E7590D00B8BEC8 /* HomeCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4F1167BA22E86BA800B8BEC8 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D44722E725A1005DEAF3 /* Clothing */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		4F1167BB22E86BB100B8BEC8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167BC22E86BF400B8BEC8 /* ClothingViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		4F1167BE22E86FD800B8BEC8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167BF22E86FEB00B8BEC8 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4F1167C122E881A900B8BEC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167C222E881BE00B8BEC8 /* ClothingViewModelTests.swift */,
+				4F534C8722F1CF4600C791AA /* ClothingListViewModelTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F1167C422E8A2AD00B8BEC8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167C522E8A2D500B8BEC8 /* NetworkingServiceTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4F1167C722E8B08000B8BEC8 /* Data Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167C922E8B0A800B8BEC8 /* ClothingModelMock.swift */,
+			);
+			path = "Data Mocks";
+			sourceTree = "<group>";
+		};
 		4F75D3F122E717EE005DEAF3 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +206,18 @@
 		4F75D3FC22E717EE005DEAF3 /* YNAP */ = {
 			isa = PBXGroup;
 			children = (
+				4F1167BE22E86FD800B8BEC8 /* Extensions */,
+				4F75D44322E72363005DEAF3 /* Configuration */,
+				4F75D43022E71A32005DEAF3 /* Networking */,
+				4F75D44622E7258B005DEAF3 /* Models */,
 				4F75D3FD22E717EE005DEAF3 /* AppDelegate.swift */,
-				4F75D3FF22E717EE005DEAF3 /* ViewController.swift */,
+				4F1167B222E758B500B8BEC8 /* UI */,
 				4F75D40122E717EE005DEAF3 /* Main.storyboard */,
 				4F75D40722E717F1005DEAF3 /* Assets.xcassets */,
 				4F75D40922E717F1005DEAF3 /* LaunchScreen.storyboard */,
 				4F75D40C22E717F1005DEAF3 /* Info.plist */,
 				4F75D40422E717EE005DEAF3 /* YNAP.xcdatamodeld */,
+				4F75D44222E7208B005DEAF3 /* Localizable.strings */,
 			);
 			path = YNAP;
 			sourceTree = "<group>";
@@ -113,6 +225,9 @@
 		4F75D41422E717F1005DEAF3 /* YNAPTests */ = {
 			isa = PBXGroup;
 			children = (
+				4F1167C722E8B08000B8BEC8 /* Data Mocks */,
+				4F1167C422E8A2AD00B8BEC8 /* Networking */,
+				4F1167C122E881A900B8BEC8 /* Models */,
 				4F75D41522E717F1005DEAF3 /* YNAPTests.swift */,
 				4F75D41722E717F1005DEAF3 /* Info.plist */,
 			);
@@ -122,10 +237,47 @@
 		4F75D41F22E717F1005DEAF3 /* YNAPUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4F75D42022E717F1005DEAF3 /* YNAPUITests.swift */,
 				4F75D42222E717F1005DEAF3 /* Info.plist */,
+				4F1167CC22E8B24700B8BEC8 /* HomeViewUITests.swift */,
 			);
 			path = YNAPUITests;
+			sourceTree = "<group>";
+		};
+		4F75D43022E71A32005DEAF3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D43122E71A9D005DEAF3 /* NetworkingService.swift */,
+				4F75D43822E71CAA005DEAF3 /* NetworkingResource.swift */,
+				4F75D43A22E71CE4005DEAF3 /* HttpMethod.swift */,
+				4F75D43C22E71DE0005DEAF3 /* URLRequest+Resource.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4F75D44322E72363005DEAF3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D44422E72388005DEAF3 /* Constants.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		4F75D44622E7258B005DEAF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F1167BA22E86BA800B8BEC8 /* Data Models */,
+				4F1167BB22E86BB100B8BEC8 /* View Models */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F75D44722E725A1005DEAF3 /* Clothing */ = {
+			isa = PBXGroup;
+			children = (
+				4F534C8422F1C53100C791AA /* ClothingListViewModel.swift */,
+				4F75D44922E725D8005DEAF3 /* ClothingModel.swift */,
+			);
+			path = Clothing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +355,7 @@
 					};
 					4F75D41B22E717F1005DEAF3 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 4F75D3F922E717EE005DEAF3;
 					};
 				};
@@ -233,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F75D40B22E717F1005DEAF3 /* LaunchScreen.storyboard in Resources */,
+				4F75D44022E7208B005DEAF3 /* Localizable.strings in Resources */,
 				4F75D40822E717F1005DEAF3 /* Assets.xcassets in Resources */,
 				4F75D40322E717EE005DEAF3 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +413,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F75D40022E717EE005DEAF3 /* ViewController.swift in Sources */,
 				4F75D40622E717EE005DEAF3 /* YNAP.xcdatamodeld in Sources */,
+				4F1167BD22E86BF400B8BEC8 /* ClothingViewModel.swift in Sources */,
 				4F75D3FE22E717EE005DEAF3 /* AppDelegate.swift in Sources */,
+				4F534C8522F1C53100C791AA /* ClothingListViewModel.swift in Sources */,
+				4F75D42F22E71872005DEAF3 /* HomeViewController.swift in Sources */,
+				4F75D43222E71A9D005DEAF3 /* NetworkingService.swift in Sources */,
+				4F1167CB22E8B0EA00B8BEC8 /* ClothingModelMock.swift in Sources */,
+				4F75D43B22E71CE4005DEAF3 /* HttpMethod.swift in Sources */,
+				4F1167C022E86FEB00B8BEC8 /* UIImageView+Extensions.swift in Sources */,
+				4F1167B622E7590D00B8BEC8 /* HomeCollectionViewCell.swift in Sources */,
+				4F75D44A22E725D8005DEAF3 /* ClothingModel.swift in Sources */,
+				4F534C8322F1C07700C791AA /* ClothingCollectionView.swift in Sources */,
+				4F75D43922E71CAA005DEAF3 /* NetworkingResource.swift in Sources */,
+				4F75D43D22E71DE0005DEAF3 /* URLRequest+Resource.swift in Sources */,
+				4F75D44522E72388005DEAF3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +435,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F534C8822F1CF4600C791AA /* ClothingListViewModelTests.swift in Sources */,
 				4F75D41622E717F1005DEAF3 /* YNAPTests.swift in Sources */,
+				4F1167C622E8A2D500B8BEC8 /* NetworkingServiceTests.swift in Sources */,
+				4F1167C322E881BE00B8BEC8 /* ClothingViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F75D42122E717F1005DEAF3 /* YNAPUITests.swift in Sources */,
+				4F1167CD22E8B24700B8BEC8 /* HomeViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +480,14 @@
 				4F75D40A22E717F1005DEAF3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4F75D44222E7208B005DEAF3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F75D44122E7208B005DEAF3 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -514,6 +691,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CMR96MW33;
 				INFOPLIST_FILE = YNAPUITests/Info.plist;
@@ -524,6 +702,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ejd.YNAPUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = YNAP;
@@ -534,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CMR96MW33;
 				INFOPLIST_FILE = YNAPUITests/Info.plist;
