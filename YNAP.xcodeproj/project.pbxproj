@@ -145,6 +145,7 @@
 		4F1167BB22E86BB100B8BEC8 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				4F534C8422F1C53100C791AA /* ClothingListViewModel.swift */,
 				4F1167BC22E86BF400B8BEC8 /* ClothingViewModel.swift */,
 			);
 			path = "View Models";
@@ -274,7 +275,6 @@
 		4F75D44722E725A1005DEAF3 /* Clothing */ = {
 			isa = PBXGroup;
 			children = (
-				4F534C8422F1C53100C791AA /* ClothingListViewModel.swift */,
 				4F75D44922E725D8005DEAF3 /* ClothingModel.swift */,
 			);
 			path = Clothing;
